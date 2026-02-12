@@ -99,10 +99,12 @@ body {
 }
 
 .btn-enabled {
+  color: hsl(216, 12%, 8%);
   background-color: hsl(25, 97%, 53%);
 }
 
 .btn-disabled {
+  color: hsl(213, 19%, 18%);
   background-color: hsl(223, 5%, 26%);
 }
 
