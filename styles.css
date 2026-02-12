@@ -141,18 +141,18 @@ body {
   height: auto;
 }
 
-.btn-enabled:hover {
+body.hasHover .btn-enabled:hover {
   cursor: pointer;
   background-color: hsl(0, 100%, 100%);
 }
 
-.rating-not-selected:hover {
+body.hasHover .rating-not-selected:hover {
   cursor: pointer;
   background-color: hsl(25, 97%, 53%);
   color: hsl(213, 19%, 18%);
 }
 
-.rating-selected:hover {
+body.hasHover .rating-selected:hover {
   cursor: pointer;
   color: hsl(213, 19%, 18%);
 }
